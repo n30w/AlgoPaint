@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+script {
+  align-content: center;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

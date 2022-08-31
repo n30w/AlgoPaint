@@ -1,0 +1,16 @@
+{
+  "name": "algo-paint",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "watch": "parcel watch",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/p5": "^1.4.2",
+    "p5": "^1.4.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

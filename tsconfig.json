@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "watch": true,
+        "lib": ["dom", "ES2021"],
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+    }
+}

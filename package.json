@@ -1,17 +1,15 @@
 {
   "name": "AlgoPaintTesting",
-  "source": "./index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },"source": "./index.html",
   "version": "1.0.0",
   "description": "Testing for Algopaint",
   "main": "index.js",
   "author": "Neo Alabastro",
   "license": "MIT",
   "private": true, 
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
-  
   "dependencies": {
     "@types/p5": "^1.4.2",
     "p5": "^1.4.2"

@@ -1,16 +1,25 @@
 {
-  "name": "algo-paint",
+  "name": "AlgoPaintTesting",
+  "source": "./index.html",
   "version": "1.0.0",
+  "description": "Testing for Algopaint",
+  "main": "index.js",
+  "author": "Neo Alabastro",
+  "license": "MIT",
+  "private": true, 
   "scripts": {
-    "start": "parcel index.html --open",
-    "watch": "parcel watch",
-    "build": "parcel build index.html"
+    "start": "parcel",
+    "build": "parcel build"
   },
+  
   "dependencies": {
     "@types/p5": "^1.4.2",
     "p5": "^1.4.2"
   },
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "@parcel/transformer-sass": "2.7.0",
+    "@parcel/transformer-vue": "2.7.0",
+    "parcel": "^2.7.0",
+    "vue": "^3.2.38"
   }
 }

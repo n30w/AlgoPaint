@@ -2,15 +2,15 @@ import P5 from "p5"
 import Settings from "./settings";
 
 export default class ComplexConstruct {
-    _p5: P5;
-    _settings: Settings;
+    private _p5: P5;
+    private _settings: Settings;
     
     constructor(p5: P5, settings: Settings) {
         this._p5 = p5;
         this._settings = settings;
     }
 
-    createSphere(sphereAmount: number, renderColor: boolean, rotX: boolean, rotY: boolean): void {
+    private _createSphere(sphereAmount: number, renderColor: boolean, rotX: boolean, rotY: boolean) : void {
         const p5 = this._p5;
         const s = this._settings;
 
@@ -32,7 +32,7 @@ export default class ComplexConstruct {
         }
     }
 
-    createConstruct(): void {
+    public createConstruct() : void {
         const p5 = this._p5
         const s = this._settings;
         if (s.renderSmear) {
@@ -44,7 +44,7 @@ export default class ComplexConstruct {
         }
 
         for (let i = 0; i < s.constructMultiplier; i++) {
-            this.createSphere(s.sphereAmount, s.renderColor, true, true);
+            this._createSphere(s.sphereAmount, s.renderColor, true, true);
         }
 
         p5.translate(0, 0, -2000);

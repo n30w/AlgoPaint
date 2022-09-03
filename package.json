@@ -3,15 +3,18 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
-  },"source": "./index.html",
+  },
+  "source": "./index.html",
   "version": "1.0.0",
   "description": "Testing for Algopaint",
   "main": "index.js",
   "author": "Neo Alabastro",
   "license": "MIT",
-  "private": true, 
+  "private": true,
   "dependencies": {
+    "@types/node": "^18.7.14",
     "@types/p5": "^1.4.2",
+    "bootstrap": "^5.2.0",
     "p5": "^1.4.2"
   },
   "devDependencies": {

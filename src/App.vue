@@ -1,18 +1,17 @@
 <template>
-<div>AHAHSDIASDI WORK PLEASE GOD DAMN {{ name }}</div>
+<div class="container-fluid">
+	<Test />
+</div>
+<div class="container-fluid">
+	<Sketch />
+</div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue"
-
-let myName: string;
-myName = "brahhh"
-
-export default defineComponent({
-	data() {
-		return {
-			name: myName,
-		}
-	}
-})
+<script setup lang="ts">
+import Test from './components/Test.vue';
+import Sketch from './Sketch.vue';
 </script>
+
+<style lang="scss">
+@import "./index.scss"
+</style>

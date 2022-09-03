@@ -12,3 +12,5 @@ export default interface Settings {
     renderColor: boolean, // Should there be color or just black and white?
     renderSmear: boolean, // Render a primitive smearing effect
 }
+
+export { Settings };

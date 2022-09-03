@@ -9,6 +9,9 @@ Installed using yarn.
 
 ## Helpful Links
 - [TypeScript value delcared never read](https://flaviocopes.com/typescript-disable-declared-never-read/)
+- [Vue + P5 demo](https://codesandbox.io/s/vue-p5-forked-ql5oi1?file=/src/components/canvas.component.vue:103-930)
+- [Japanese dude Vue + P5 Medium Article](https://medium.com/js-dojo/experiment-with-p5-js-on-vue-7ebc05030d33)
+
 
 ## Building
 Make sure to have node package manager (npm) installed, along with yarn.

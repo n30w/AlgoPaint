@@ -4,7 +4,7 @@
 </template>
 
 <script setup lang="ts">
-import { sketch } from "./components/sketch/sketch";
+import { sketch } from "./sketch/sketch";
 import { onMounted } from "vue";
 import P5 from "p5";
 
@@ -14,5 +14,5 @@ onMounted(() => {
 </script>
 
 <style lang="scss">
-@import "./index.scss"; 
+@import "../index.scss"; 
 </style>

@@ -14,6 +14,10 @@ Installed using yarn.
 - [Japanese dude Vue + P5 Medium Article](https://medium.com/js-dojo/experiment-with-p5-js-on-vue-7ebc05030d33)
 - [Bootstrap Containers](https://getbootstrap.com/docs/5.0/layout/containers/)
 
+### GitHub
+- [How to overwrite one branch with another](https://www.reddit.com/r/git/comments/bqx85v/how_do_i_overwrite_one_branch_with_another_branch/)
+- [Git merge diagrams](https://stackoverflow.com/questions/2427238/what-is-the-difference-between-merge-squash-and-rebase)
+
 ### Bootstrap
 Follow these links to get bootstrap integrated into the project
 - [Bootstrap and Parcel](https://getbootstrap.com/docs/5.0/getting-started/parcel/)

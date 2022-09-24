@@ -7,7 +7,6 @@
   "source": "./index.html",
   "version": "1.0.0",
   "description": "Testing for Algopaint",
-  "main": "index.js",
   "author": "Neo Alabastro",
   "license": "MIT",
   "private": true,

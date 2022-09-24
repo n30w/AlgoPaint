@@ -16,12 +16,12 @@
     "@types/node": "^18.7.14",
     "@types/p5": "^1.4.2",
     "bootstrap": "^5.2.0",
-    "p5": "^1.4.2"
+    "p5": "^1.4.2",
+    "vue": "^3.2.39"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.7.0",
     "@parcel/transformer-vue": "2.7.0",
-    "parcel": "^2.7.0",
-    "vue": "^3.2.38"
+    "parcel": "^2.7.0"
   }
 }
